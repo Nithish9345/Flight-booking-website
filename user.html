@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="css_files/user.css">
+    <script defer src="js_files/signup.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome, User!</h1>
+      <p>Please select a flight:</p>
+      <form>
+        <label for="from">From:</label>
+        <input type="text" id="from" name="from" required>
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <button type="submit">Search Flights</button>
+      </form>
+      <p>Booked Flights:</p>
+      <ul>
+        <li>Flight 1</li>
+        <li>Flight 2</li>
+        <li>Flight 3</li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #3f51b5;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a.active {
+    border-bottom: 2px solid #fff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .booking-list {
+    margin-top: 20px;
+  }
+  
+  .booking-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .booking-list li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flight-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flight-number {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .flight-time {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .booking-seats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .booking-id {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 5px;
+  }
+  
+  .booked-seats {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script defer src="js_files/index.js"></script>
+    <body>
+ 
+      
+    </body>  
+    <title>Flight Ticket Booking</title>
+    <link rel="stylesheet" href="css_files/flight_booking.css">
+  </head>
+  <body>
+    <header>
+      <h1>Flight Ticket Booking</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Search Flights</a></li>
+          <li><a href="my_booking.html">My Bookings</a></li>
+          <li><a href="signup.html">Signup</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Search Flights</h2>
+      <form>
+        <label for="departure">Departure:</label>
+        <input type="text" id="departure" name="departure">
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <button type="submit">Search</button>
+      </form>
+      <div class="flight-list">
+        <h3>Available Flights</h3>
+        <ul>
+          <li>
+            <div class="flight-info">
+              <div class="flight-details">
+                <span class="flight-number">FL123</span>
+                <span class="flight-time">10:00 AM - 12:00 PM</span>
+              </div>
+              <div class="flight-seats">
+                <span class="available-seats">30 seats available</span>
+                <button class="book-button">Book</button>
+              </div>
+            </div>
+          </li>
+          <!-- Repeat this list item for each available flight -->
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <p>Made BY Nithish raj</p>
+    </footer>
+  </body>
+</html>
